@@ -1,0 +1,52 @@
+.main
+{
+    background-color: aqua;
+    width: 360px;
+    height: 510px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 70px;
+    padding: 10px;
+}
+h1{
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px gray;
+}
+.body
+{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+    margin:5px;
+}
+.h
+{
+    display:flex;
+    gap: 7px;
+    margin:5px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+}
+input{
+    width: 255px;
+    border: none;
+    border-radius: 7px;
+}
+.c
+{
+    background-color: red;
+}
+input:hover,button:hover{
+    border: 1px solid black;
+}
+button:active
+{
+    background-color: gray;
+}
